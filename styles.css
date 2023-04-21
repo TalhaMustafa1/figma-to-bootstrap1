@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.jumbotron{
+    
+    background-color: #f2f2f2;
+    padding-top: 4%;
+    position: relative;
+
+}
+.top-msg-img{
+  position:absolute;
+  left: 0px;
+  top: 500px;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+
+  .col-md-6{
+    padding-top: 90px;
+  }
+  .h-1{
+    color: #274884;
+    font-weight: 700;
+    font-size:49px;
+  }
+  .col-md-6 h3{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    color: #274884;
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  .col-md-6 P{
+    margin-top: 10PX;
+    color: #515151;
+    text-transform: uppercase;
+    line-height: 33px;
+  }
+  .btn{
+    background: #274884;
+border-radius: 3px;
+width: 236px;
+height: 49px;
+color: white;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 23px;
+text-align: center;
+text-transform: capitalize;
+
+  }
+.jumbotron img{
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+.section-2 .container .row{
+  padding-top: 100px;
+  
+}
+.section-2 .container .row .col-md-5 img{
+     width: 650px;
+     height: 550px;
+     margin-left: 0px;
+}
+.col-md-7 h1{
+  color: #274884;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+}
+.section-2 .container .row .col-md-7 {
+  margin-top: 40px;
+  
+}
+.section-3{
+  background-color: #f2f2f2;
+ 
+}
+.section-3 .container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-3 .container .row .col-md-4 p{
+  color: #B0B1B5;
+  font-weight: 400;
+font-size: 30px;
+line-height: 32px;
+}
+.section-4{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-4 .container .row .col-md-7 h3{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+letter-spacing: -0.025em;
+text-transform: capitalize;
+
+color: #274884;
+}
+.section-4 .container .row .col-md-7 p{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 40px;
+/* identical to box height, or 182% */
+
+letter-spacing: -0.025em;
+text-transform: capitalize;
+
+color: #515151;
+}
+.section-4 .container .row .col-md-7 .p-2{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #B0B1B5;
+}
+.section-4 .container .row .col-md-7 h4{
+  color:#274884;
+}
+.section-4 .container .row .col-md-5 img{
+         margin-left: 100px;
+}
+.section-5{
+  background-color:#f2f2f2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-5 .container .row .col-md-5 h3{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 66px;
+/* or 194% */
+
+text-transform: capitalize;
+
+color: #274884;
+}
+input{
+  padding: 80px;
+}
+input[type=text] {
+  font-size: 30px;
+  width: 100%;
+}
+input[type="checkbox"] {
+  margin-top: 30px;
+  width: 40px;
+  height: 20px;
+  margin-right: 10px;
+}
+.section-6{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-6 .container .row .col-md-4 h3{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 75px;
+/* identical to box height, or 300% */
+
+text-transform: capitalize;
+
+color: #274884;
+}
+.section-6 .container .row .col-md-4 p{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #515151;
+
+opacity: 0.6;
+}
+.logo-group{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.section-7{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color:#f2f2f2;
+  position: relative;
+}
+.section-7 .container .row p{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  
+  text-align: center;
+  letter-spacing: 0.01em;
+  
+  color: #B0B1B5;
+}
+.social-icons{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.social-icons a{
+  margin-right:19px;
+}
+.logo-message{
+  position:absolute;
+  right: 0px;
+  top: 0;
+}
+.social-icons a{
+  text-decoration: none;
+}
+.fa {
+  padding: 7px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+  background-color: #b0b1b5;
+}
+
+
+
+
+
+
+
